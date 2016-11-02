@@ -1,0 +1,97 @@
+body{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Sans Serif;
+	margin: 0 auto;
+}
+#banner{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 50px;
+	}
+h1{
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: Tahoma, Sans Serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+#content{
+	width: 800px;
+	margin: auto;
+	border-color: black;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+#leftbox{
+	width: 550px;
+}
+#rightbox{
+	float: right;
+	overflow: hidden;
+	width: 250px;
+}
+#contenthead{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+	background-repeat: repeat-x;
+	height: 83px;
+}
+#texthead{
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+#texthead img{
+	vertical-align:text-top;
+}
+#leftcolumn{
+	width: 47%;
+	float: left;
+	
+}
+
+#rightcolumn{
+	width: 47%;
+	float: right;
+}
+.recensione{
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border-style: solid;
+	border-width: 2px;
+	border-color: grey;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+.recensione p{
+	margin: 8px;
+}
+.icon img{
+	float: left;
+	margin-right: 5px;
+	
+}
+#footer{
+	float:right;
+	position: fixed;
+	right: 10px;
+	bottom:10px;
+	
+}
+.critics{
+	font-style: italic;
+}
+.critics img{
+	float: left;
+	margin-left: 8px;
+	margin-right: 5px;
+}
+.critics p{
+	margin-bottom: 20pt;
+	
+}
