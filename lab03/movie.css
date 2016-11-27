@@ -1,0 +1,147 @@
+body {
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+	background-size: auto 50px;
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	text-align: center;
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+}
+
+.title-header {
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+
+.outer-box {
+	width: 800px;
+	border: 4px solid grey;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+
+.right-box {
+	float: left;
+	background-color: #A2B964;
+	width: 250px;
+	font-family: Arial, sans-serif;
+}
+
+.description-box {
+	padding: 10pt;
+}
+
+dt {
+	margin-top: 10pt;
+}
+.description-box dt{
+	font-weight:bold;
+}
+
+dt:first-child {
+	margin-top: 0pt;
+}
+
+.right-box ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+
+.left-box {
+	width: 550px;
+	float: left;
+}
+
+.rating-box {
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+	background-size: auto 83px;
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+.rating-box img {
+	vertical-align: bottom;
+}
+
+.column-container {
+	padding: 10px;
+}
+
+.left-column, .right-column {
+	width: 47%;
+	float: left;
+}
+
+.left-column {
+	margin-right: 2%;
+}
+
+.review {
+	margin-bottom: 20pt;
+}
+
+.review .quote p {
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.review .quote img {
+	margin-right: 5px;
+	float: left;
+}
+
+.review .author p {
+	overflow: hidden;
+}
+
+.review .author img {
+	margin-right: 5px;
+	float: left;
+}
+
+.italic {
+	font-style: italic;
+}
+
+/* INDEX BAR */
+
+.index-bar {
+	clear: left;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+}
+
+/* VALIDATOR */
+
+.validator {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+.validator img {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
